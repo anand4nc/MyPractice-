@@ -7,5 +7,5 @@ jobs:
       - name: my-step
         run: echo "Hello World! second"
       - uses: brpaz/hadolint-action@v1.2.1
-         with:
-           dockerfile: ./Dockerfile
+        with:
+          dockerfile: ./Dockerfile
