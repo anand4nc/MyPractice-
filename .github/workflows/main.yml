@@ -17,5 +17,5 @@ jobs:
       - run: ls
       - uses: brpaz/hadolint-action@v1.2.1
         with:
-           dockerfile: ./Test/Dockerfile
+           dockerfile: .Dockerfile
       
